@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Heading Elements:Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>This is para</p>
+        <div>Division:div is a block level element which has width of 100% for content</div>
+        <span>This is span element which gives background to only content</span>
+        <br>
+        <hr>
+        <button>Click Me</button>
+        <img src="\photos\download.jpg">
+        <header>Header is semantic elements</header>
+        <section>Section is a semantic element</section>
+        <footer>Is Semantic element</footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Maiores ducimus reiciendis impedit totam veritatis? 
+            At cupiditate earum adipisci eaque iusto. 
+            Debitis inventore nisi dolorem a, natus voluptate hic delectus facilis?</p>
+        
+    </div>
+</body>
+
+</html>

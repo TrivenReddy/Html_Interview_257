@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <h1>Student Details</h1>
+            <label>Name :</label>
+            <input type="text" placeholder="Enter Your Name" required>
+            <br><br>    
+
+            <label>DOB :</label>
+            <input type="date" required>
+            <br><br>
+
+            <label>Age :</label>
+            <input type="number" placeholder="Enter Your Age" required>
+            <br><br>
+
+            <label>College Name :</label>
+            <input type="text" placeholder="Enter Your College Name" required>
+            <br><br>
+
+            <label>Phone Number :</label>
+            <input type="number" placeholder="" required>
+            <br><br>
+            <!-- <label>Gender</label>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label> -->
+            <fieldset style="width:20%">
+                <legend>Gender :</legend>
+                <!-- legend is used to get the name on the border -->
+                <input type="radio" id="male" name="gender" value="male" />
+                <label>Male</label><br>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label>Female</label><br>
+                <input type="radio" id="others" name="gender" value="others" />
+                <label>Others</label>
+            </fieldset>
+            <br>
+
+            <fieldset style="width:20%">
+                <legend>Skills :</legend>
+                <input type="checkbox" id="HTML" name="Skills" value="HTML" />
+                <label>HTML</label><br>
+                <input type="checkbox" id="CSS" name="Skills" value="CSS" />
+                <label>CSS</label><br>
+                <input type="checkbox" id="JS" name="Skills" value="JS" />
+                <label>JavaScript</label><br>
+                <input type="checkbox" id="SQL" name="Skills" value="SQL" />
+                <label>SQL</label><br>
+                <input type="checkbox" id="Bootstrap" name="Skills" value="Bootstrap" />
+                <label>BootStrap</label><br>
+                <input type="checkbox" id="Java" name="Skills" value="Java" />
+                <label>Java</label><br>
+            </fieldset>
+            <br>
+
+            <!-- DropDown -->
+            <label>Select Role :</label>
+            <select name="Role" id="Role">
+                <option value="Student">Student</option>
+                <option value="Employee">Employee</option>
+            </select>
+            <br><br>
+
+            <label>Resume :</label>
+            <input type="file" name="Resume" id="Resume" accept=".pdf,.doc,.docx" required>
+            <br><br>
+
+            <label>Email :</label>
+            <input type="email" id="Email" required>
+            <br><br>
+
+            <label>Password :</label>
+            <input type="password" required>
+            <br><br>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
